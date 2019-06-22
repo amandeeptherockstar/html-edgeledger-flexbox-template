@@ -1,0 +1,49 @@
+body {
+  font-size: 87.5%;
+}
+.l-heading {
+  font-size: 2.2rem;
+}
+.lead {
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  padding: .5rem 1rem;
+  font-size: 1.1rem;
+}
+.py-4 {
+  padding: 2rem 0;
+}
+
+/* Navbar */
+#navbar nav {
+  flex-direction: column;
+}
+#navbar h1 {
+  padding: .7rem;
+}
+#navbar ul li {
+  padding: .7rem;
+}
+/* Showcase */
+#showcase {
+  margin-top: -87.5px;
+}
+/* Form */
+#form{
+  display: block;
+}
+#form .map-area{
+  height: 20rem;
+}
+/* Footer */
+#footer.p-2{
+  padding: 1.5rem 0;
+}
+
+@media screen and (max-width: 345px){
+  body{
+    font-size: 80%;
+  }
+}

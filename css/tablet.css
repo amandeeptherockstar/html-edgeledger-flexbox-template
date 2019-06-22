@@ -1,0 +1,33 @@
+/* What we do */
+#what.py-4 {
+  padding: 2rem 0;
+}
+#what .items {
+  display: block;
+  text-align: left;
+}
+
+#what .item{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+#what .item i {
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+#what .item .item-content h2{
+  font-size: 1.4rem;
+  margin-bottom: .5rem;
+}
+
+/* Who we are */
+#who {
+  display: block;
+}
+#who .image-section img{
+  display: none;
+}

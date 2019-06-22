@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800,900&display=swap');
+
+/* Utilities */
+.m-1 {margin: 1rem;}
+.m-2 {margin: 2rem;}
+.m-3 {margin: 3rem;}
+
+.mx-1 {margin: 1rem 0;}
+.mx-2 {margin: 2rem 0;}
+.mx-3 {margin: 3rem 0;}
+
+.my-1 {margin: 1rem 0;}
+.my-2 {margin: 2rem 0;}
+.my-3 {margin: 3rem 0;}
+
+.p-1 {padding: 1rem;}
+.p-2 {padding: 2rem;}
+.p-3 {padding: 3rem;}
+
+.px-1 {padding: 1rem 0;}
+.px-2 {padding: 2rem 0;}
+.px-3 {padding: 3rem 0;}
+
+.py-1 {padding: 1rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+.py-4 {padding: 4rem 0;}
+
+.bg-primary {background-color: #21aa21;}
+.bg-light {background-color: rgb(236, 236, 236);}
+.bg-dark {background-color: #333;}
+
+/* Common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+}
+.text-primary {
+  color: #21aa21;
+}
+.text-white {
+  color: #fff;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+}
+.l-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+.m-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.lead {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.btn-primary {
+  margin-top: 1.5rem;
+  border: none;
+  color: #fff;
+  background-color: #21aa21;
+  text-decoration: none;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.btn-primary:hover {
+  background-color: goldenrod;
+  color: #202020;
+}
+.btn-block {
+  width: 100%;
+  padding: .5rem 1rem;
+  color: goldenrod;
+  background-color: #333;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btn-block:hover {
+  color: #333;
+  background-color: goldenrod;
+}
+
+/* Navbar */
+#navbar {
+  color: #fff;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+}
+#navbar ul {
+  list-style: none;
+}
+#navbar nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+#navbar ul li {
+  padding: 1rem;
+}
+#navbar ul li:hover {
+  background-color: goldenrod;
+}
+#navbar ul li:hover > a {
+  color: #202020;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+  background: url('../images/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+  margin-top: -53px;
+}
+#showcase .showcase-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* What */
+#what .what-heading{
+  margin-bottom: 2rem;
+}
+#what .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#what .item {
+  flex: 1;
+  text-align: center;
+}
+#what .item i {
+  margin-bottom: 1.5rem;
+  background-color: #21aa21;
+  border-radius: 10%;
+  padding: 16px;
+}
+#what .item h2 {
+  margin-bottom: 1rem;
+}
+
+/* Who we are */
+#who {
+  display: flex;
+}
+#who div {
+  flex: 1;
+}
+#who .image-section img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#who .text-section {
+  line-height: 1.7rem;
+}
+#who .text-section ul {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+/* Clients Section */
+#clients .items{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#clients h1 {
+  font-size: 2rem;
+}
+#clients div img{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  justify-self: center;
+}
+/* Form Section */
+#form {
+  display: flex;
+}
+#form .form-area, #form .map-area {
+  flex: 1;
+}
+#form .form-group{
+  margin: 10px 0;
+}
+#form .form-group .form-control label {
+  display: block;
+  display: block;
+  margin-bottom: 5px;
+}
+#form .form-group .form-control{
+  display: block;
+  width: 100%;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+#form .form-group textarea {
+  font-family: inherit;
+}

@@ -1,0 +1,21 @@
+/* What we do */
+#what .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+#what .item i {
+  margin-bottom: 0;
+  border-radius: 100%;
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+#what .item h2 {
+  margin-bottom: .5rem;
+}
+
+/* Form Section */
+#form .map-area {
+  flex: 2;
+}
